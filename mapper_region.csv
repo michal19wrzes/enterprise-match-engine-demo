@@ -1,0 +1,4 @@
+Kod REGION;Kod jednostki;REGION;Jednostka;Kod pocztowy;województwo;MCODE
+01;0101;Region Alpha;Unit Alpha;00-001;demo-province;UNIT001
+01;0102;Region Alpha;Unit Beta;00-002;demo-province;UNIT002
+02;0201;Region Beta;Unit Gamma;00-003;demo-province;UNIT003

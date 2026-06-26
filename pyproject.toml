@@ -1,0 +1,32 @@
+[project]
+name = "enterprise-match-engine-demo"
+version = "0.1.0"
+description = "Portfolio-safe enterprise data matching and integration pipeline demo."
+requires-python = ">=3.11"
+dependencies = [
+    "APScheduler",
+    "SQLAlchemy",
+    "python-dotenv",
+    "requests",
+    "urllib3",
+]
+
+[project.optional-dependencies]
+live = ["oracledb", "pyodbc"]
+dev = ["pytest", "ruff", "black"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
