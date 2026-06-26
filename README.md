@@ -106,3 +106,6 @@ The production-sized job layer was split into smaller modules to make the code e
 python app.py --demo
 pytest
 ```
+
+<img width="444" height="422" alt="2026-06-2611-27-35-ezgif com-crop" src="https://github.com/user-attachments/assets/e9d9eb1a-c911-4001-853b-6fa6ee69bbfd" />
+
