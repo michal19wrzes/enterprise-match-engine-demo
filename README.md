@@ -107,5 +107,6 @@ python app.py --demo
 pytest
 ```
 
-<img width="444" height="422" alt="2026-06-2611-27-35-ezgif com-crop" src="https://github.com/user-attachments/assets/e9d9eb1a-c911-4001-853b-6fa6ee69bbfd" />
+
+<img width="921" height="689" alt="2026-06-2611-27-35-ezgif com-crop (1)" src="https://github.com/user-attachments/assets/ac765744-1368-4233-b15d-e290ad737e08" />
 
